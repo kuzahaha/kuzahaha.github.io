@@ -1,0 +1,80 @@
+html{
+    height:100%;
+}
+body{
+	margin:0;
+	padding-left:20%;
+	padding-right:20%;
+	width:100%;
+	display:block;
+	background:url(img/image.jpg);
+	background-size:cover;
+    background-repeat: no-repeat;
+    box-sizing:border-box;
+    height:100%;
+}/*тут все заебись работает тупо рамка делит мой экран грубо говоря на две части одна отступы */
+.header{
+	display:flex;
+	justify-content: center;
+	font-family: Times New Roman,serif;
+	font-size:3em;
+	height:20%;
+	background-color: #39AECF;
+	opacity:0.8;
+	margin-bottom:6%;
+}
+.footer{
+	width:100%;
+	display:flex;
+	justify-content: center;
+	font-family: Times New Roman,serif;
+	height:10%;
+    background-color: #39AECF;
+	opacity:0.8;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+
+}
+section{
+	height:84%;
+	background-color: #39AECF;
+    opacity:0.8;
+    margin-bottom:6%;
+}
+input[type="submit"] {
+width:20%;
+margin-bottom:30px;
+margin-left:10px;
+}
+textarea{
+	background-color: white;
+	opacity:1;
+	margin-left:10px;
+}
+#lbl{
+	margin-left:10px;
+}
+.btn{
+   display: block;
+   box-sizing: border-box;
+   text-align: center;
+   padding: 20px;
+   width: 150px;
+   height: 50px;
+   cursor: pointer;
+   border: 1px solid black;
+   border-radius: 15%;
+   background-color: red;
+  -webkit-animation-name: bluePulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+
+}
+@-webkit-keyframes bluePulse {
+  from { background-color: blue; -webkit-box-shadow: 0 0 9px red; }
+  50% { background-color: #3e3fab; -webkit-box-shadow: 0 0 18px #39AECF; }
+  to { background-color: blue; -webkit-box-shadow: 0 0 9px red; }
+}

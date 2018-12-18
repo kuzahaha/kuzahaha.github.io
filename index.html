@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Электронная очередь</title>
+	<link rel="icon" href="img/leyba.jpg">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+	<header>
+	  <div class="header">Электронная очередь</div>
+	</header>
+
+	<section>
+		<ol>
+		   <li>
+		   	  <label  >Выберите палату:<br>
+		        <select name="palata">
+		     	<ul>
+		     		<li><option value="palata1">Палата1</option></li>
+		     		<li><option value="palata2">Палата2</option></li>
+		     		<li><option value="palata3">Палата3</option></li>
+		     		<li><option value="palata4">Палата4</option></li>
+		     	</ul>
+		      </select>
+		     </label>
+		   </li>
+		  <li>
+			<label>Выберите ваш пол:<br>
+				<label>Мужской:<br>
+			      <input type="radio" name="sex" value="1"><br>
+			    </label>
+			    <label>Женский:<br>
+			      <input type="radio" name="sex" value="2"><br>
+			    </label>
+		       </label>
+		     </li>
+		  <li>
+		  	<label>Выберите свой возраст:<br>
+			 <select name="age">
+		     	<ul>
+		     		<li><option value="age1">Ребенок</option></li>
+		     		<li><option value="age2">Взрослый</option></li>
+		     		<li><option value="age3">Пожилой</option></li>
+		     	</ul>
+		      </select>
+		    </label>
+		  </li>
+	    </ol>
+	    <input type="submit" class="btn" value="Зарегистрироваться"><br>
+	    <label id="lbl">Данные о выбранной палате:<br>
+	    <textarea readonly cols="60" rows="14">
+	    	
+	    </textarea></label>
+	</section>
+	<footer>
+		<div class="footer">Очередь разработал студент группы 622401 Кузнецов Владислав</div>
+	</footer>
+    </main>
+</body>
+</html>
